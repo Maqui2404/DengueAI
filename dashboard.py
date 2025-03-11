@@ -26,6 +26,11 @@ def mapa_avanzado_departamental():
             font-weight: 700;
             color: #90CAF9;
         }
+        .title-fontt {
+            font-family: 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+            color: #1E88E5;
+        }
         .subtitle-font {
             font-family: 'Helvetica Neue', sans-serif;
             font-weight: 500;
@@ -115,6 +120,8 @@ def mapa_avanzado_departamental():
     """, unsafe_allow_html=True)
 
     st.markdown('<h1 class="title-font">Mapa de Calor de Dengue en Perú</h1>',
+                unsafe_allow_html=True)
+    st.markdown('<h3 class="title-fontt">Marco Mayta</h3>',
                 unsafe_allow_html=True)
     st.markdown('<p class="subtitle-font">Análisis epidemiológico por departamentos, provincias y distritos</p>',
                 unsafe_allow_html=True)
