@@ -114,7 +114,7 @@ def mapa_avanzado_departamental():
         <div class="ecosystem-logo">🦟 DengueAI Ecosystem</div>
         <div class="nav-links">
             <a href="#" class="nav-link active">Dashboard</a>
-            <a href="/?page=modelo_ia" class="nav-link">Modelo con IA</a>
+            <a https://dengueaimodelmarco010101push-uoriginmain-v8zvxtzctwc2uoctszxf6z.streamlit.app/" class="nav-link">Modelo con IA</a>
         </div>
     </div>
     """, unsafe_allow_html=True)
