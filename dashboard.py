@@ -170,7 +170,7 @@ def mapa_avanzado_departamental():
     
     nivel_geografico = st.sidebar.selectbox(
         '🗺️ Nivel de análisis',
-        ['Departamento', 'Provincia', 'Distrito']
+        ['Departamento']
     )
 
     min_semana = int(df['semana'].min())
